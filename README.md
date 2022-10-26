@@ -1,5 +1,5 @@
 # Mijn oba
-Ontwerp en maak een component/website voor een bedrijf en presenteer het resultaat.
+Ontwerp en maak voor een opdrachtgever een component/pagina/site toegankelijk volgens WCAG richtlijnen.
 
 ## Inhoudsopgave
 

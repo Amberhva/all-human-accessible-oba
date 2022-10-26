@@ -15,7 +15,7 @@ User story:
 Zoals je ziet op de afbeelding, heb je bovenaan een sticky navigation. Zo kan elke gebruiker nog steeds op de pagina navigeren zonder dat hij/zij helemaal naar boven hoeft te scrollen. Dan heb je uiteindelijk de boekentips. Je kan hierdoor navigeren door op de linker of rechter pijl te kliken. Je kan er ook voor kiezen om de boekentips die je krijgt aanbevolen, toe te voegen aan je persoonlijke leeslijst. Zo heb je een overzicht van alle boeken die je hebt opgeslagen, en kan je de boeken lenen bij je volgende bezoek bij de oba. 
 
 Hieronder heb ik ook een foto geplaatst van hoe de website eruit ziet wanneer het word bezocht op de mobiel. Klik op de link om de website te bezoeken:
-https://amberhva.github.io/the-client-oba-amber/
+![De nieuwe 'mijn oba' omgeving](https://amberhva.github.io/all-human-accessible-oba/)
 
 ![boekentips](https://user-images.githubusercontent.com/112861033/195666128-cb4fe13c-f935-4171-8d29-0acb5a9a5fa2.jpg)
 ![responsive-oba (2)](https://user-images.githubusercontent.com/112861033/195671724-c123c54f-2385-455e-bf5c-fd35beeccc04.png)

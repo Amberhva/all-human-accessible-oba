@@ -28,10 +28,15 @@
             <label for="search-box" class="fas fa-search"></label>
         </form>
 
+        <div class="icons-extra">
+            <div id="info-btn" title="Meer informatie" class="fa-solid fa-circle-info"></div>
+            <div id="darkmode-btn" title="Dark mode aanzetten" class="fa-solid fa-toggle-off"></div>
+        </div>
+
         <div class="icons">
-            <div id="search-btn" class="fas fa-search"></div>
-            <div id="login-btn" class="fas fa-user"></div>
-            <a href="#" title="Log uit" class="fa-solid fa-right-from-bracket"></a>
+            <div id="search-btn" title="Zoeken" class="fas fa-search"></div>
+            <div id="login-btn" title="Mijn profiel" class="fas fa-user"></div>
+            <a href="#" title="Uitloggen" class="fa-solid fa-right-from-bracket"></a>
         </div>
     </div>
 
@@ -56,19 +61,13 @@
     <a href="#" class="fas fa-list"></a>
 </nav>
 
-<!-- login form  -->
+<!-- Info starts  -->
 
-<div class="login-form-container">
-    <div id="close-login-btn"></div>
-</div>
-
-<!-- Welcome section starts  -->
-
-<section class="welcome">
-    <div class="row">
-        <div class="content">
-            <h3>Welkom terug Jane!</h3>
-            <p>Op deze pagina kunt u uw materialen verlengen, uw reserveringen bekijken en uw uitleengeschiedenis raadplegen. Daarnaast kunt u voortaan ook:</p>
+<div class="info-form-container">
+    <div id="close-info-btn" class="fas fa-times"></div>
+    <form action="">
+        <h3>Handige informatie</h3>
+        <p>Op uw persoonlijke pagina kunt u uw materialen verlengen, uw reserveringen bekijken en uw uitleengeschiedenis raadplegen. Daarnaast kunt u voortaan ook:</p>
             <p>
                 <ul>
                     <li>openstaande bedragen betalen via ideal.</li>
@@ -78,10 +77,23 @@
                     <li>andere leners aan uw eigen account koppelen. Hiermee kunt u toegang krijgen tot de passen van bijvoorbeeld uw kinderen, zonder dat u voor elke pas apart hoeft in te loggen. Klik voor meer uitleg bij de optie gerelateerde gebruikers.</li>
                 </ul>
             </p>
-            <p>Klik op een optie in het menu aan de bovenkant van deze pagina om toegang te krijgen tot de gewenste categorie.</p>
+            <p>Klik op een optie in het menu om toegang te krijgen tot de gewenste categorie.</p>
+        <input type="submit" value="Hulp nodig? Klik deze op deze knop" class="btn">
+        <p>Met de chatbot praten? <a href="#">Klik hier</a></p>
+    </form>
+</div>
+
+<!-- Info ends  -->
+
+<!-- Welcome section starts  -->
+
+<!-- <section class="welcome">
+    <div class="row">
+        <div class="content">
+            <h3>Welkom terug Jane!</h3> 
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Welcome section ends  -->
 
@@ -89,7 +101,7 @@
 
 <section class="featured">
 
-    <h1 class="heading"> <span>Uw persoonlijke boekentips</span> </h1>
+    <h1 class="heading"> <span>Bekijk uw persoonlijke boekentips</span> </h1>
 
     <div class="swiper featured-slider">
         <div class="swiper-wrapper">
@@ -350,8 +362,8 @@
 
         <div class="box">
             <h3>Contact</h3>
-            <a href="#"> <i class="fas fa-phone"></i> 020-523 0 900 </a>
-            <a href="#"> <i class="fas fa-envelope"></i> klantreacties@oba.nl </a>
+            <a href="tel:0205230900"> <i class="fas fa-phone"></i> 020-523 0 900 </a>
+            <a href="mailto: klantreacties@oba.nl"> <i class="fas fa-envelope"></i> klantreacties@oba.nl</a>
         </div>
 
         <div class="box">

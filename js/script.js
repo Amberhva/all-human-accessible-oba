@@ -4,11 +4,17 @@ document.querySelector('#search-btn').onclick = () =>{
   searchForm.classList.toggle('active');
 }
 
-document.querySelector('#login-btn').onclick = () =>{
+document.querySelector('#darkmode-btn').onclick = () =>{
+  searchForm.classList.toggle('dark-mode');
+}
+
+let loginForm = document.querySelector('.info-form-container');
+
+document.querySelector('#info-btn').onclick = () =>{
   loginForm.classList.toggle('active');
 }
 
-document.querySelector('#close-login-btn').onclick = () =>{
+document.querySelector('#close-info-btn').onclick = () =>{
   loginForm.classList.remove('active');
 }
 

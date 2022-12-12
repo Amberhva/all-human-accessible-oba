@@ -8,14 +8,14 @@ document.querySelector('#darkmode-btn').onclick = () =>{
   searchForm.classList.toggle('dark-mode');
 }
 
-let infoForm = document.querySelector('.info-form-container');
+let loginForm = document.querySelector('.info-form-container');
 
 document.querySelector('#info-btn').onclick = () =>{
-  infoForm.classList.toggle('active');
+  loginForm.classList.toggle('active');
 }
 
 document.querySelector('#close-info-btn').onclick = () =>{
-  infoForm.classList.remove('active');
+  loginForm.classList.remove('active');
 }
 
 window.onscroll = () =>{

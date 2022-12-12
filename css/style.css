@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
-:root{
+/* Fonts being used by the oba */
+@font-face {
+    font-family: AvenirRoman;
+    src: url(../font/Avenir-roman.ttf);
+}
+
+@font-face {
+    font-family: AvenirMedium;
+    src: url(../font/Avenir-medium.ttf);
+}
+
+@font-face {
+    font-family: AvenirBlack;
+    src: url(../font/Avenir\ -black.ttf);
+}
+
+/* Custom properties */
+:root {
     --red:#FF0000;
     --dark-color:#ce0000;
     --black:#000000;
@@ -10,8 +27,8 @@
     --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
-*{
-    font-family: 'Poppins', sans-serif;
+* {
+    font-family: AvenirRoman;
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
@@ -88,10 +105,13 @@ section{
     justify-content: space-between;
 }
 
-.header .header-1 .logo{
+.header .header-1 .logo img {
     font-size: 2.5rem;
     font-weight: bolder;
     color: var(--black);
+
+    width: 100%;
+    max-width: 100px;
 }
 
 .header .header-1 .logo i{
